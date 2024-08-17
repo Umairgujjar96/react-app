@@ -1,0 +1,30 @@
+
+.ho:hover{
+  background-color: lightblue;
+  
+}
+.tho:hover{
+  color: blue;
+}
+
+ .cartt:hover{
+  transition: transform 0.4s ease-out;
+  transform: scale(1.02,1.02); 
+  transition: background-color 0.3s;
+} 
+.cartt2:hover{
+  transition: transform 0.9s ease-out;
+  transform: scale(1.3,1.3); 
+  transition: background-color 0.3s;
+  
+}
+.cartt3:hover{
+  transition: transform 1s ease-in-out;
+  transform: scale(1.1,1.1); 
+  transition: background-color 2s;
+  background-color: rgb(228, 225, 225);
+}
+.cartt3::shadow{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
