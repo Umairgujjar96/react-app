@@ -9,9 +9,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import {Route, Routes} from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import Product from './pages/Products';
-
-console.log("HI")
-
 function App() {
   return (
     <div>
