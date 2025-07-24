@@ -10,12 +10,6 @@ import {Route, Routes} from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import Product from './pages/Products';
 function App() {
-
-
-  
-  
-
-
   
   return (
     <div>
